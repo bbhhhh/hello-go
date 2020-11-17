@@ -17,5 +17,7 @@ func main() {
 	a3[0] = 10
 	a4 := make([]int, 10, 20)
 	fmt.Printf("%T %[1]v\n", a4)
+	a5 := []int{1, 2}
+	fmt.Println(a5)
 
 }
